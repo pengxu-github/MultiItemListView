@@ -115,6 +115,7 @@ public class TestHttpUrlConnecttion extends Activity implements OnClickListener 
         int id = v.getId();
         switch (id) {
             case R.id.bt:
+                Log.d(TAG, "button is clicked");
                 break;
             case R.id.refresh:
                 refresh();
