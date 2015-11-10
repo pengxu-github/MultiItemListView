@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/bg_comm_edit" >
+
+        <Button
+            android:id="@+id/msg_dispatch_btn_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_comm_edit"
+            android:paddingRight="15dp"
+            android:text="kaishi" />
+
+        <Button
+            android:id="@+id/msg_dispatch_btn_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_comm_edit"
+            android:paddingRight="15dp"
+            android:text="jieshu" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/msg_communicate_send"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="@drawable/bg_comm_edit"
+        android:text="communicate" />
+
+    <ListView
+        android:id="@+id/msg_dispatch_msg_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp" >
+    </ListView>
+
+</LinearLayout>
